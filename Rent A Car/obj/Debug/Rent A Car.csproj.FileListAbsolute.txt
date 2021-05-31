@@ -1,0 +1,48 @@
+C:\Users\KursatYG\source\repos\Rent A Car\Rent A Car\obj\Debug\Rent A Car.csprojAssemblyReference.cache
+C:\Users\KursatYG\source\repos\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Properties.Resources.resources
+C:\Users\KursatYG\source\repos\Rent A Car\Rent A Car\obj\Debug\Rent A Car.csproj.GenerateResource.cache
+C:\Users\KursatYG\source\repos\Rent A Car\Rent A Car\obj\Debug\Rent A Car.csproj.CoreCompileInputs.cache
+C:\Users\KursatYG\source\repos\Rent A Car\Rent A Car\bin\Debug\Rent A Car.exe.config
+C:\Users\KursatYG\source\repos\Rent A Car\Rent A Car\bin\Debug\Rent A Car.exe
+C:\Users\KursatYG\source\repos\Rent A Car\Rent A Car\bin\Debug\Rent A Car.pdb
+C:\Users\KursatYG\source\repos\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Form1.resources
+C:\Users\KursatYG\source\repos\Rent A Car\Rent A Car\obj\Debug\Rent A Car.exe
+C:\Users\KursatYG\source\repos\Rent A Car\Rent A Car\obj\Debug\Rent A Car.pdb
+C:\Users\KursatYG\source\repos\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Araclar.resources
+C:\Users\KursatYG\source\repos\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Main.resources
+C:\Users\KursatYG\source\repos\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Musteriler.resources
+C:\Users\KursatYG\source\repos\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Kiralanan.resources
+C:\Users\KursatYG\source\repos\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.GeriDonus.resources
+C:\Users\KursatYG\source\repos\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Users.resources
+F:\Rent A Car\Rent A Car\bin\Debug\Rent A Car.exe.config
+F:\Rent A Car\Rent A Car\bin\Debug\Rent A Car.exe
+F:\Rent A Car\Rent A Car\bin\Debug\Rent A Car.pdb
+F:\Rent A Car\Rent A Car\obj\Debug\Rent A Car.csprojAssemblyReference.cache
+F:\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Araclar.resources
+F:\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.GeriDonus.resources
+F:\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Kiralanan.resources
+F:\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Form1.resources
+F:\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Main.resources
+F:\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Musteriler.resources
+F:\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Properties.Resources.resources
+F:\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Users.resources
+F:\Rent A Car\Rent A Car\obj\Debug\Rent A Car.csproj.GenerateResource.cache
+F:\Rent A Car\Rent A Car\obj\Debug\Rent A Car.csproj.CoreCompileInputs.cache
+F:\Rent A Car\Rent A Car\obj\Debug\Rent A Car.exe
+F:\Rent A Car\Rent A Car\obj\Debug\Rent A Car.pdb
+C:\Users\KursatYG\Desktop\Yedek\Rent A Car\Rent A Car\bin\Debug\Rent A Car.exe.config
+C:\Users\KursatYG\Desktop\Yedek\Rent A Car\Rent A Car\bin\Debug\Rent A Car.exe
+C:\Users\KursatYG\Desktop\Yedek\Rent A Car\Rent A Car\bin\Debug\Rent A Car.pdb
+C:\Users\KursatYG\Desktop\Yedek\Rent A Car\Rent A Car\obj\Debug\Rent A Car.csprojAssemblyReference.cache
+C:\Users\KursatYG\Desktop\Yedek\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Araclar.resources
+C:\Users\KursatYG\Desktop\Yedek\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.GeriDonus.resources
+C:\Users\KursatYG\Desktop\Yedek\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Kiralanan.resources
+C:\Users\KursatYG\Desktop\Yedek\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Form1.resources
+C:\Users\KursatYG\Desktop\Yedek\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Main.resources
+C:\Users\KursatYG\Desktop\Yedek\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Musteriler.resources
+C:\Users\KursatYG\Desktop\Yedek\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Properties.Resources.resources
+C:\Users\KursatYG\Desktop\Yedek\Rent A Car\Rent A Car\obj\Debug\Rent_A_Car.Users.resources
+C:\Users\KursatYG\Desktop\Yedek\Rent A Car\Rent A Car\obj\Debug\Rent A Car.csproj.GenerateResource.cache
+C:\Users\KursatYG\Desktop\Yedek\Rent A Car\Rent A Car\obj\Debug\Rent A Car.csproj.CoreCompileInputs.cache
+C:\Users\KursatYG\Desktop\Yedek\Rent A Car\Rent A Car\obj\Debug\Rent A Car.exe
+C:\Users\KursatYG\Desktop\Yedek\Rent A Car\Rent A Car\obj\Debug\Rent A Car.pdb
