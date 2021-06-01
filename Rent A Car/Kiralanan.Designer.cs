@@ -29,20 +29,13 @@ namespace Rent_A_Car
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Kiralanan));
-            this.tbx_id = new System.Windows.Forms.TextBox();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
-            this.btn_geri_donus = new System.Windows.Forms.Button();
-            this.btn_sil = new System.Windows.Forms.Button();
-            this.btn_duzenle = new System.Windows.Forms.Button();
-            this.btn_ekle = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tbx_soyisim = new System.Windows.Forms.TextBox();
@@ -53,21 +46,21 @@ namespace Rent_A_Car
             this.date_teslim = new System.Windows.Forms.DateTimePicker();
             this.date_alis = new System.Windows.Forms.DateTimePicker();
             this.cbx_plaka = new System.Windows.Forms.ComboBox();
+            this.tbx_id = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btn_geri_donus = new System.Windows.Forms.Button();
+            this.btn_sil = new System.Windows.Forms.Button();
+            this.btn_duzenle = new System.Windows.Forms.Button();
+            this.btn_ekle = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // tbx_id
-            // 
-            this.tbx_id.Location = new System.Drawing.Point(149, 50);
-            this.tbx_id.Name = "tbx_id";
-            this.tbx_id.Size = new System.Drawing.Size(121, 20);
-            this.tbx_id.TabIndex = 12;
             // 
             // label7
             // 
@@ -113,40 +106,6 @@ namespace Rent_A_Car
             this.label3.TabIndex = 7;
             this.label3.Text = "ID";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(328, 320);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(242, 20);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "KİRALANAN ARAÇ LİSTESİ";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView1.GridColor = System.Drawing.Color.Black;
-            this.dataGridView1.Location = new System.Drawing.Point(115, 343);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(647, 131);
-            this.dataGridView1.TabIndex = 5;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -158,62 +117,6 @@ namespace Rent_A_Car
             this.label4.TabIndex = 13;
             this.label4.Text = "X";
             this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // btn_geri_donus
-            // 
-            this.btn_geri_donus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btn_geri_donus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_geri_donus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_geri_donus.ForeColor = System.Drawing.Color.White;
-            this.btn_geri_donus.Location = new System.Drawing.Point(149, 289);
-            this.btn_geri_donus.Name = "btn_geri_donus";
-            this.btn_geri_donus.Size = new System.Drawing.Size(96, 33);
-            this.btn_geri_donus.TabIndex = 4;
-            this.btn_geri_donus.Text = "GERİ ";
-            this.btn_geri_donus.UseVisualStyleBackColor = false;
-            this.btn_geri_donus.Click += new System.EventHandler(this.btn_geri_donus_Click);
-            // 
-            // btn_sil
-            // 
-            this.btn_sil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btn_sil.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_sil.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_sil.ForeColor = System.Drawing.Color.White;
-            this.btn_sil.Location = new System.Drawing.Point(251, 250);
-            this.btn_sil.Name = "btn_sil";
-            this.btn_sil.Size = new System.Drawing.Size(96, 33);
-            this.btn_sil.TabIndex = 3;
-            this.btn_sil.Text = "SİL";
-            this.btn_sil.UseVisualStyleBackColor = false;
-            this.btn_sil.Click += new System.EventHandler(this.btn_sil_Click);
-            // 
-            // btn_duzenle
-            // 
-            this.btn_duzenle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btn_duzenle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_duzenle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_duzenle.ForeColor = System.Drawing.Color.White;
-            this.btn_duzenle.Location = new System.Drawing.Point(149, 250);
-            this.btn_duzenle.Name = "btn_duzenle";
-            this.btn_duzenle.Size = new System.Drawing.Size(96, 33);
-            this.btn_duzenle.TabIndex = 2;
-            this.btn_duzenle.Text = "DÜZENLE";
-            this.btn_duzenle.UseVisualStyleBackColor = false;
-            this.btn_duzenle.Click += new System.EventHandler(this.btn_duzenle_Click);
-            // 
-            // btn_ekle
-            // 
-            this.btn_ekle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btn_ekle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_ekle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_ekle.ForeColor = System.Drawing.Color.White;
-            this.btn_ekle.Location = new System.Drawing.Point(47, 250);
-            this.btn_ekle.Name = "btn_ekle";
-            this.btn_ekle.Size = new System.Drawing.Size(96, 33);
-            this.btn_ekle.TabIndex = 1;
-            this.btn_ekle.Text = "EKLE";
-            this.btn_ekle.UseVisualStyleBackColor = false;
-            this.btn_ekle.Click += new System.EventHandler(this.btn_ekle_Click);
             // 
             // panel1
             // 
@@ -283,6 +186,7 @@ namespace Rent_A_Car
             this.cbx_musteri.Size = new System.Drawing.Size(103, 21);
             this.cbx_musteri.TabIndex = 22;
             this.cbx_musteri.SelectedIndexChanged += new System.EventHandler(this.cbx_musteri_SelectedIndexChanged);
+            this.cbx_musteri.SelectionChangeCommitted += new System.EventHandler(this.cbx_musteri_SelectionChangeCommitted_1);
             // 
             // tbx_ucret
             // 
@@ -326,6 +230,13 @@ namespace Rent_A_Car
             this.cbx_plaka.Size = new System.Drawing.Size(121, 21);
             this.cbx_plaka.TabIndex = 17;
             // 
+            // tbx_id
+            // 
+            this.tbx_id.Location = new System.Drawing.Point(149, 50);
+            this.tbx_id.Name = "tbx_id";
+            this.tbx_id.Size = new System.Drawing.Size(121, 20);
+            this.tbx_id.TabIndex = 12;
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -336,6 +247,96 @@ namespace Rent_A_Car
             this.label8.Size = new System.Drawing.Size(121, 18);
             this.label8.TabIndex = 11;
             this.label8.Text = "TESLİM GÜNÜ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label2.Location = new System.Drawing.Point(328, 320);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(242, 20);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "KİRALANAN ARAÇ LİSTESİ";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView1.GridColor = System.Drawing.Color.Black;
+            this.dataGridView1.Location = new System.Drawing.Point(115, 343);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(647, 131);
+            this.dataGridView1.TabIndex = 5;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // btn_geri_donus
+            // 
+            this.btn_geri_donus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_geri_donus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_geri_donus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_geri_donus.ForeColor = System.Drawing.Color.White;
+            this.btn_geri_donus.Location = new System.Drawing.Point(149, 289);
+            this.btn_geri_donus.Name = "btn_geri_donus";
+            this.btn_geri_donus.Size = new System.Drawing.Size(96, 33);
+            this.btn_geri_donus.TabIndex = 4;
+            this.btn_geri_donus.Text = "GERİ ";
+            this.btn_geri_donus.UseVisualStyleBackColor = false;
+            this.btn_geri_donus.Click += new System.EventHandler(this.btn_geri_donus_Click);
+            // 
+            // btn_sil
+            // 
+            this.btn_sil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_sil.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_sil.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_sil.ForeColor = System.Drawing.Color.White;
+            this.btn_sil.Location = new System.Drawing.Point(251, 250);
+            this.btn_sil.Name = "btn_sil";
+            this.btn_sil.Size = new System.Drawing.Size(96, 33);
+            this.btn_sil.TabIndex = 3;
+            this.btn_sil.Text = "SİL";
+            this.btn_sil.UseVisualStyleBackColor = false;
+            this.btn_sil.Click += new System.EventHandler(this.btn_sil_Click);
+            // 
+            // btn_duzenle
+            // 
+            this.btn_duzenle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_duzenle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_duzenle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_duzenle.ForeColor = System.Drawing.Color.White;
+            this.btn_duzenle.Location = new System.Drawing.Point(149, 250);
+            this.btn_duzenle.Name = "btn_duzenle";
+            this.btn_duzenle.Size = new System.Drawing.Size(96, 33);
+            this.btn_duzenle.TabIndex = 2;
+            this.btn_duzenle.Text = "DÜZENLE";
+            this.btn_duzenle.UseVisualStyleBackColor = false;
+            this.btn_duzenle.Click += new System.EventHandler(this.btn_duzenle_Click);
+            // 
+            // btn_ekle
+            // 
+            this.btn_ekle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_ekle.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_ekle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_ekle.ForeColor = System.Drawing.Color.White;
+            this.btn_ekle.Location = new System.Drawing.Point(47, 250);
+            this.btn_ekle.Name = "btn_ekle";
+            this.btn_ekle.Size = new System.Drawing.Size(96, 33);
+            this.btn_ekle.TabIndex = 1;
+            this.btn_ekle.Text = "EKLE";
+            this.btn_ekle.UseVisualStyleBackColor = false;
+            this.btn_ekle.Click += new System.EventHandler(this.btn_ekle_Click);
             // 
             // label1
             // 
@@ -372,12 +373,11 @@ namespace Rent_A_Car
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Kiralanan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Kiralanan";
             this.Load += new System.EventHandler(this.Kiralanan_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -385,30 +385,30 @@ namespace Rent_A_Car
         }
 
         #endregion
-        private System.Windows.Forms.TextBox tbx_id;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TextBox tbx_soyisim;
+        private System.Windows.Forms.TextBox tbx_isim;
+        private System.Windows.Forms.ComboBox cbx_musteri;
+        private System.Windows.Forms.TextBox tbx_ucret;
+        private System.Windows.Forms.DateTimePicker date_teslim;
+        private System.Windows.Forms.DateTimePicker date_alis;
+        private System.Windows.Forms.ComboBox cbx_plaka;
+        private System.Windows.Forms.TextBox tbx_id;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btn_geri_donus;
         private System.Windows.Forms.Button btn_sil;
         private System.Windows.Forms.Button btn_duzenle;
         private System.Windows.Forms.Button btn_ekle;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cbx_plaka;
-        private System.Windows.Forms.DateTimePicker date_teslim;
-        private System.Windows.Forms.DateTimePicker date_alis;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox tbx_ucret;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox cbx_musteri;
-        private System.Windows.Forms.TextBox tbx_soyisim;
-        private System.Windows.Forms.TextBox tbx_isim;
-        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

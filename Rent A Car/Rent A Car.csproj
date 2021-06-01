@@ -54,6 +54,18 @@
     </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="Codes.cs" />
+    <Compile Include="Kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kayit.Designer.cs">
+      <DependentUpon>Kayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciFormu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciFormu.Designer.cs">
+      <DependentUpon>KullaniciFormu.cs</DependentUpon>
+    </Compile>
     <Compile Include="GeriDonus.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,8 +110,14 @@
     <EmbeddedResource Include="GeriDonus.resx">
       <DependentUpon>GeriDonus.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Kayit.resx">
+      <DependentUpon>Kayit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Kiralanan.resx">
       <DependentUpon>Kiralanan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciFormu.resx">
+      <DependentUpon>KullaniciFormu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

@@ -198,6 +198,11 @@ namespace Rent_A_Car
 
         private void cbx_musteri_SelectionChangeCommitted(object sender, EventArgs e)
         {
+            
+        }
+
+        private void cbx_musteri_SelectionChangeCommitted_1(object sender, EventArgs e)
+        {
             mustericek();
         }
     }

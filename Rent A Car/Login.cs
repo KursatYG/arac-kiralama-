@@ -35,21 +35,35 @@ namespace Rent_A_Car
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=RentACar;Integrated Security=True");
-            string query = "SELECT count(*) from Users WHERE UserName='" + User.Text +"' and Password='" + Password.Text +"'";
-            SqlDataAdapter data = new SqlDataAdapter(query, con);
-            DataTable dt = new DataTable();
-            data.Fill(dt);
-            if (dt.Rows[0][0].ToString() == "1")
+            string ktipi;
+            SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=AracKiralama;Integrated Security=True");
+            con.Open();
+            SqlCommand cmd = new SqlCommand("SELECT usertype from Users WHERE UserName='" + User.Text + "' and Password='" + Password.Text + "'", con);
+            SqlDataReader dr = cmd.ExecuteReader();
+            
+            
+            if (dr.Read())
             {
-                Main main = new Main();
-                main.Show();
-                this.Hide();
+                ktipi = dr[0].ToString();
+
+                if (ktipi == "0")
+                {
+                    Main main = new Main();
+                    main.Show();
+                    this.Hide();
+                }
+                else if (ktipi=="1")
+                {
+                    KullaniciFormu kullanici = new KullaniciFormu();
+                    kullanici.Show();
+                    this.Hide();
+                }
             }
             else
             {
                 MessageBox.Show("Yanlış Kullanıcı Adı Veya Şifre");
             }
+            con.Close();
             
         }
     }
